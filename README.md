@@ -6,6 +6,8 @@ Cartas de precios en formato web, para consultarse desde un QR en el recinto.
 |---|---|
 | BULLA! | `/bulla/` |
 
+**URL pública:** https://wepltechnology.github.io/costafeira-cartas/bulla/
+
 ## Cambiar un precio
 
 Edita `bulla/index.html`, busca la línea del producto y cambia el importe.
@@ -17,6 +19,12 @@ GitHub Pages republica la página en 1–2 minutos.
 
 Duplica la carpeta `bulla/` con el nuevo nombre y edita el contenido.
 Queda publicada en `/nombre-nuevo/`.
+
+## Dominio personalizado
+
+No usar `costafeira.com` como custom domain: es el dominio principal del festival.
+Si se quiere URL propia, usar el subdominio `carta.costafeira.com` con un registro
+CNAME hacia `wepltechnology.github.io`.
 
 ---
 
